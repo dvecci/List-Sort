@@ -1,0 +1,25 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+  background: #e2e2e2;
+  min-width: 15rem;
+}
+
+.inputRow {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.photos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pageTitle {
+  text-align: center;
+  margin: 0;
+  font-variant: small-caps;
+  margin-bottom: 1rem;
+}

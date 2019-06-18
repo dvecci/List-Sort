@@ -24,7 +24,7 @@ export class App extends React.Component {
 
   render() {
     return <div className="main">
-      <header><h1 className="pageTitle">Flickr Photo Sort</h1></header>
+      <header><h1 className="pageTitle">Flickr Photo Filter</h1></header>
       <section className="inputRow">
         <input ref="filterInput" type="text" onChange={evt => { this.props.filterResults(evt.target.value);}} />
       </section>
